@@ -1,0 +1,8 @@
+query GET_FINANCIAL_BALANCE_SHEET {
+  getFinancialBalanceSheet {
+    investment_account
+    fair_value_account
+    lib_and_equity
+    paid_in_capital
+  }
+}

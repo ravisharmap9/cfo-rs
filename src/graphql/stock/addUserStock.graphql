@@ -1,0 +1,6 @@
+mutation ADD_STOCK($stock_name: String, $stock_code: String) {
+  addUserStock(data: { stock_name: $stock_name, stock_code: $stock_code }) {
+    status
+    message
+  }
+}

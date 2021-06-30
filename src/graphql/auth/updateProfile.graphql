@@ -1,0 +1,12 @@
+mutation EDIT_PROFILE($first_name:String!, $last_name:String!, $email:String!, $phone_number: String, $address:String, $password: String, ){
+  editProfile(data:{first_name:$first_name, last_name:$last_name, email:$email, phone_number:$phone_number, address:$address, password:$password}){
+    id
+    first_name
+    last_name
+    email
+    phone_number
+    address
+    updated_at
+    
+  }
+}

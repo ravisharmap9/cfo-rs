@@ -1,0 +1,14 @@
+query GET_LEDGER_DATA {
+  getFinancialLedger {
+    debit {
+      buy_date
+      description
+      total
+    }
+    credit {
+      buy_date
+      description
+      total
+    }
+  }
+}

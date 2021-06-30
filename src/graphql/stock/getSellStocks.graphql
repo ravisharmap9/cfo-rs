@@ -1,0 +1,13 @@
+query GET_USER_SELL_STOCKS {
+  getUserSellStock {
+    id
+    stock_name
+    stock_code
+    price
+    live_price
+    gain_percentage
+    note
+    shares
+    sell_date
+  }
+}

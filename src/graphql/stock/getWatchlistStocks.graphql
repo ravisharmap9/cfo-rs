@@ -1,0 +1,13 @@
+query GET_USER_WATCH_LIST_STOCKS {
+  getUserWishlistStock {
+    id
+    stock_name
+    stock_code
+    price
+    live_price
+    gain_percentage
+    note
+    shares
+    buy_date
+  }
+}

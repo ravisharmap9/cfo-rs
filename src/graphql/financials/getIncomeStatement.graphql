@@ -1,0 +1,6 @@
+query GET_INCOME_STATEMENT {
+  getIncomeStatement {
+    net_income
+    mark_to_market_value
+  }
+}

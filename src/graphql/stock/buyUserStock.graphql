@@ -1,0 +1,6 @@
+mutation BUY_USER_STOCK($user_stock_id:ID, $price:String, $share:Int, $note:String, $buy_date:Date){
+  buyUserStock(data:{user_stock_id:$user_stock_id,price:$price, share:$share, note:$note, buy_date:$buy_date}){
+    status
+    message
+  }
+}

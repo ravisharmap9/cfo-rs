@@ -1,0 +1,5 @@
+query GET_STOCK_PRICE_BY_DATE($date: Date!, $stock_code: String!) {
+  getStockPriceByDate(data: { date: $date, stock_code: $stock_code }) {
+    price
+  }
+}

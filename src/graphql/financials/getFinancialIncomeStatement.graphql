@@ -1,0 +1,18 @@
+query GET_FINANCIAL_INCOME_STATEMENT {
+  getFinancialIncomeStatement {
+    debit {
+      date
+      price
+      stock_name
+      description
+      gain_or_loss
+    }
+    credit {
+      date
+      price
+      stock_name
+      description
+      gain_or_loss
+    }
+  }
+}

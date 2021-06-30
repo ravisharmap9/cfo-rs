@@ -1,0 +1,6 @@
+mutation REMOVE_WISHLIST($id: [ID]) {
+  removeUserWishlist(id: $id) {
+    status
+    message
+  }
+}

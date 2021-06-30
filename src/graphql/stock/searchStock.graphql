@@ -1,0 +1,6 @@
+query SERACH_STOCK($keyword: String) {
+  searchStock(keyword: $keyword) {
+    name
+    code
+  }
+}

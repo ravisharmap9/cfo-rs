@@ -1,0 +1,684 @@
+.invalid-feedback {
+    color: red;
+    font-size: 14px;
+    margin-top: 52px;
+}
+
+.error-msg {
+    margin-top: 0px;
+    position: relative;
+    color: red;
+    font-size: 14px;
+}
+
+.modal-footer {
+    border-top: 0px;
+}
+
+.invalid-feedback.terms-n-condition {
+    margin-top: 10px;
+}
+
+div#loadingDiv img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+div#loadingDiv {
+    position: fixed;
+    top: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 9999999;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-dark {
+    background-color: #131416 !important;
+}
+
+li.Logout a {
+    padding: 7px 19px;
+    background: #2c88b9;
+    color: #fff;
+}
+
+li.Logout a:hover {
+    padding: 7px 19px;
+    background: #2c88b9;
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    background: #2c88b9;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+button.btn.btn-primary.update-pswd {
+    border-radius: 0px;
+    margin: auto;
+    position: relative;
+    margin-left: 38%;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+#updatePassword .card-body {
+    padding: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+}
+
+#updatePassword .col-md-9.right_info {
+    margin-top: 71px !important;
+    width: 50%;
+}
+
+input#inputPassword {
+    box-shadow: 0 0 1px #ccc;
+    border-radius: 4px;
+    height: 45px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+h3.mb-0.text-center {
+    font-size: 25px;
+}
+
+.card-1 {
+    width: 75%;
+    padding: 5px;
+    margin: auto;
+}
+
+#updatePassword .invalid-feedback {
+    margin-top: 0px;
+}
+
+#forgotPassword .invalid-feedback {
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+#updatePassword .error-msg,
+#forgotPassword .error-msg {
+    font-size: 17px;
+}
+
+#updatePassword .success-msg,
+#forgotPassword .success-msg {
+    font-size: 17px;
+}
+
+a.redirect-home.text-center {
+    font-size: 18px;
+}
+
+.edit-profile .form_wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.edit-profile h2 {
+    margin: auto;
+}
+
+.edit-profile .title_container {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.edit-profile .card-body {
+    box-shadow: 0px 0px 1px 1px #ccc;
+    padding: 5px;
+}
+
+.edit-profile input.form-input {
+    color: #000;
+    display: table-cell;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #fff none repeat scroll 0 0 !important;
+    border: 1px solid #ccc !important;
+    padding: 10px 15px !important;
+}
+
+.edit-profile button.btn.btn-primary.text-center {
+    margin-right: -32px;
+    margin-top: 15px;
+    background: #000 !important;
+    border-radius: 0;
+    position: initial;
+    margin-left: 15px;
+}
+
+.edit-profile textarea#address {
+    border-radius: 0px;
+    height: 42px;
+}
+
+.edit-profile .invalid-feedback {
+    color: red;
+    font-size: 14px;
+    margin-top: 0px !important;
+    margin-bottom: -20px;
+}
+
+.edit-profile label {
+    margin-bottom: 10px !important;
+}
+
+.edit-profile .error-msg {
+    margin-top: 12px;
+    position: relative;
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.edit-profile .success-msg.text-success {
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.has-search .form-control {
+    height: 45px;
+    border-radius: 0px;
+}
+
+.buy-stock-page button.btn.btn-default {
+    height: 45px;
+    border-radius: 0px;
+    color: black;
+}
+
+.buy-stock-page button.btn.btn-primary {
+    height: 45px;
+    width: 40%;
+    border-radius: 0px;
+}
+
+.add-stock-table button.btn.btn-primary {
+    height: 45px;
+    width: 45%;
+    border-radius: 0px;
+    height: 33px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+i.fa.fa-calendar.stock-date {
+    float: right;
+    margin-top: -25px;
+    margin-right: 10px;
+}
+
+td.number {
+    position: absolute;
+}
+
+input.form-control.price {
+    width: 75%;
+    border-radius: 0px;
+}
+
+input.form-control.date-pic {
+    border-radius: 0px;
+    width: 130px;
+}
+
+td.note-1 {
+    width: 15%;
+}
+
+input.form-control.note {
+    border-radius: 0px;
+    width: auto;
+}
+
+input.form-control.share-count {
+    width: 35%;
+    border-radius: 0px;
+}
+
+button.btn.btn-primary.buy-stock-btn {
+    background: green;
+    border: 1px solid green;
+}
+
+button.btn.btn-primary.sell-stock-btn {
+    color: white;
+    background: orange;
+    border: 1px solid orange;
+    border-radius: 0px;
+    font-weight: 600;
+    width: 80%;
+}
+
+p.form-control.price {
+    border-radius: 0px;
+}
+
+.buy-stock-page td.heading {
+    width: 20%;
+}
+
+.buy-stock-page .error-msg {
+    margin-top: 0px;
+    position: relative;
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+input#two {
+    height: 18px;
+}
+
+.buy-stock-page .text-success {
+    color: #3c763d;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+td.data-not-found.text-center {
+    text-align: center !important;
+}
+
+button.btn.btn-danger.btn-remove {
+    border-radius: 0px;
+}
+
+.stock-pages-data .error-msg {
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.stock-pages-data .text-success {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    padding: 0px 0px;
+    border-radius: 5px;
+}
+
+.dropdown-menu:before {
+    content: "";
+    position: absolute;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    top: -7px;
+    right: 8px;
+}
+
+li.drop-down-li {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.dropdown-menu>li>a {
+    margin-left: 5px;
+    font-weight: 600;
+    /* margin: auto; */
+}
+
+input#alertSetting {
+    height: 21px;
+}
+
+span.alert-label {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.email-alert b {
+    font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background: none;
+    border-bottom: 1px solid;
+}
+
+.contact-us td {
+    padding: 5px;
+}
+
+.form-control.input-field {
+    border-radius: 0px;
+    height: 45px;
+}
+
+textarea.form-control.input-field {
+    border-radius: 0px;
+    height: 80px;
+}
+
+input.form-control.btn.btn-primary.submit-btn {
+    background: black;
+    border-radius: 0px;
+    width: 50%;
+    margin: auto;
+    height: 45px;
+}
+
+li.stock-name {
+    cursor: pointer;
+    list-style: none;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+li.stock-name:hover {
+    background-color: aliceblue;
+}
+
+ul.list {
+    box-shadow: 0 0px 4px 0 rgba(32, 33, 36, 0.28);
+    width: 98%;
+}
+
+.has-search {
+    position: relative;
+}
+
+.has-search ul.list {
+    position: absolute;
+    z-index: 9;
+    background: #fff;
+    left: 0px;
+    top: 46px;
+    padding: 0px;
+}
+
+.has-search ul.list li.stock-name {
+    padding: 7px 20px;
+}
+
+.has-search input::placeholder {
+    position: relative;
+    top: 17px;
+    line-height: 23px;
+    font-size: 14px;
+}
+
+.add-stock-table tr th:last-child {
+    min-width: 300px;
+}
+
+.datetime-picker .calendar table thead th {
+    min-width: 0;
+}
+
+.email-alert .col-md-4 {
+    display: flex;
+    padding: 5px;
+}
+
+p.email-subscription {
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+th.stock-name-data {
+    width: 30%;
+}
+
+
+/* .row.buy-stock-data {
+    border: 1px solid #cccc;
+    padding: 10px;
+} */
+
+.balance-sheet-page .bradcomes {
+    margin-top: 17px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+.buy-stock-data .col-md-2 {
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+select#buyStockData {
+    height: 45px;
+    border-radius: 0px;
+}
+
+.stock-details h5 {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+th.heading-data-1 {
+    text-decoration: underline;
+}
+
+.financial-statement-page th.heading-data {
+    background: lightblue;
+    height: 70px;
+}
+
+th.lab-equity {
+    text-decoration: underline;
+}
+
+span.heading-0 {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.stock-pages-data .col-md-12.bradcomes {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+h5.heading-1 {
+    background: aliceblue;
+    padding: 13px;
+    margin: auto;
+    font-weight: 600;
+}
+
+.new-design p {
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.new-design .col-md-6.stock-details-1 {
+    border: 1px solid #ccc;
+    padding: 0px 0px;
+}
+
+.new-design .col-md-6 {
+    width: 49%;
+}
+
+.new-design .col-md-6.table-responsive {
+    border: 1px solid #ccc;
+    padding: 0;
+    /* float: right; */
+}
+
+.buy-stock-data-1 .col-md-6.table-responsive {
+    border: 1px solid #ccc;
+    padding: 0px 0px;
+}
+
+th.text-center-heading {
+    text-align: center;
+}
+
+tr.f-heading {
+    background: lightblue;
+    font-size: 13px;
+}
+
+th.middle-section,
+td.middle-section {
+    border-right: 1px solid white;
+}
+
+tr.f-table {
+    background: whitesmoke;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.graph-section {
+    padding: 0px;
+}
+
+.financial-statement-page text {
+    font-weight: bold;
+}
+
+.financial-statement-page .row {
+    margin-right: 0;
+    /* margin-left: -15px; */
+}
+
+.financial-statement-page .table-responsive {
+    padding: 2px;
+}
+
+.new-design .table th {
+    padding: 8px;
+}
+
+.new-design .table td {
+    padding: 11px;
+}
+
+
+/* .table {
+    border: 1px solid whitesmoke;
+} */
+
+@media only screen and (max-width: 767px) {
+    .card-1 {
+        width: 100%;
+        padding: 5px;
+        margin: auto;
+    }
+    #updatePassword .col-md-9.right_info {
+        margin-top: 71px !important;
+        width: 100%;
+    }
+    button.btn.btn-primary.update-pswd {
+        margin-left: 25%;
+    }
+    .edit-profile button.btn.btn-primary.text-center {
+        margin-right: -32px;
+        margin-top: 15px;
+        background: #000 !important;
+        border-radius: 0;
+        position: initial;
+        margin-left: 25px;
+    }
+}
+.nav-top {
+	/* background: #004274; */
+	padding: 8px 0px;
+	background: #f2f2f2;
+}
+.nav-flex {
+	display: flex;
+	align-items: center;
+}
+.nav-top-left {
+	width: 50%;
+}
+.nav-top-left ul {
+	margin: 0px;
+  padding: 0px;
+}
+.nav-top-left ul li {
+	color: #000;
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 14px;
+	border-right: 1px solid rgba(255,255,255,0.2);
+	padding-right: 15px;
+}
+.nav-top-left ul li i {
+	margin-right: 5px;
+}
+.nav-top-left ul li:last-child {
+	margin-right: 0px;
+	padding-right: 0;
+	border-right: 0;
+}
+.nav-top-right {
+	width: 50%;
+	text-align: right;;
+}
+.nav-top-right ul {
+	margin: 0px;
+	padding: 0px;
+}
+.nav-top-right ul li {
+	display: inline-block;
+}
+.nav-top-right ul li a {
+	color: #000;
+	padding-left: 19px;
+}
+.nav-top-right ul li a:hover {
+	text-decoration: none;
+}
+.nav-top-right ul li a i {
+	-webkit-transition: all .4s ease-out 0s;
+	-moz-transition: all .4s ease-out 0s;
+	-ms-transition: all .4s ease-out 0s;
+	-o-transition: all .4s ease-out 0s;
+	transition: all .4s ease-out 0s;
+	transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+}
+.nav-top-right ul li a:hover i {
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+}

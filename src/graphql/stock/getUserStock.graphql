@@ -1,0 +1,11 @@
+query GET_USER_STOCK {
+  getUserStock {
+    id
+    stock_name
+    stock_code
+    price
+    note
+    shares
+    buy_date
+  }
+}
